@@ -9,12 +9,9 @@ import { ShopPage } from '../shop/shop';
 })
 export class HomePage {
 
+  usrsPage= UsersPage;
+
   constructor(public navCtrl: NavController) {
-
-  }
-
-  onGoToUsers() {
-    this.navCtrl.push(UsersPage);
   }
 
   onGoToShop() {

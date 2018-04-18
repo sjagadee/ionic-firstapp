@@ -8,7 +8,7 @@
 
 
 <ion-content padding>
-  <button ion-button (click)="onGoToBuyout('Milk')">Milk</button>
-  <button ion-button (click)="onGoToBuyout('Apples')">Apples</button>
-  <button ion-button (click)="onGoToBuyout('Bread')">Bread</button>
+  <button ion-button (click)="onGoToBuyout({item: 'Milk', quantity: 2})">Milk</button>
+  <button ion-button (click)="onGoToBuyout({item: 'Apples', quantity: 3})">Apples</button>
+  <button ion-button (click)="onGoToBuyout({item: 'Bread', quantity: 4})">Bread</button>
 </ion-content>
